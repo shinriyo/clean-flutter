@@ -1,5 +1,6 @@
 name: cleanflutter
 description: A new Flutter project with a demo of clean architecture.
+version: 0.0.1
 
 dependencies:
   flutter:
@@ -8,9 +9,10 @@ dependencies:
 
   path_provider: ^0.4.0
 
-  mock_web_server: ^2.1.0
+  mock_web_server: ^4.1.1
 
-  mockito: "^2.2.3"
+  mockito: ^4.1.1
+  http: ^0.12.0+4
 
 dev_dependencies:
   flutter_test:
